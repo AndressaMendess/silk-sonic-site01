@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+:root {
+    --fonte: 'Source Serif Pro', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: var(--fonte);
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #270e00;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 37px;
+    padding-top: 15px;
+}
+header > p {
+    padding-bottom: 17px;
+}
+
+nav {
+    background-color: #57300056;
+    padding: 8px;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 55px;
+}
+nav > a:hover {
+    color: #d6c493;
+    text-decoration: underline;
+}
+
+
+section {
+    padding: 40px;
+    line-height: 1.8em;
+    font-size: 17px;
+}
+
+.normal {
+    background-color: #ebd8a2;
+    padding: 50px;
+}
+
+.imagem {
+    background-color: #734002;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    box-shadow: inset 0px 4px 20px #00000085;
+}
+
+.imagem > p  {
+    text-shadow: 1px 1px black;
+    background-color: #401801c5;
+    display: inline-block;
+    padding: 20px;
+}
+#img01 {
+    background-image: url(../imagens/foto01.jpg);
+}
+#img02 {
+    background-image: url(../imagens/skate2.jpg);
+}
+#img03 {
+    background-image: url(../imagens/foto02.png);
+}
+
+
+footer {
+    background-color: #270e00;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
